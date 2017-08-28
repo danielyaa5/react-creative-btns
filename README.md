@@ -7,7 +7,7 @@
 
 ## Basic Usage
 
-[Demo](https://danielyaa5.github.io/react-creative-btns)
+[Demo](https://danielyaa5.github.io/react-creative-btns/demo)
 [Github](https://github.com/danielyaa5/react-creative-btns)
 
 Right now only Effects 1 has been tested.
