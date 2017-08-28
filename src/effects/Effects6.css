@@ -1,0 +1,140 @@
+/* Button 6 */
+.btn-6 {
+    color: #fff;
+    background: #226fbe;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+.btn-6:active {
+    top: 2px;
+}
+
+/* Button 6a */
+.btn-6a {
+    border: 4px solid #226fbe;
+}
+
+.btn-6a:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6b */
+.btn-6b {
+    border: 4px solid #226fbe;
+    border-radius: 15px;
+}
+
+.btn-6b:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6c */
+.btn-6c {
+    border: 4px solid #226fbe;
+    border-radius: 60px;
+}
+
+.btn-6c:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6d */
+.btn-6d {
+    border: 2px dashed #226fbe;
+}
+
+.btn-6d:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6e */
+.btn-6e {
+    border: 2px dashed #226fbe;
+    border-radius: 15px;
+}
+
+.btn-6e:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6f */
+.btn-6f {
+    border: 2px dashed #226fbe;
+    border-radius: 60px;
+}
+
+.btn-6f:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6g */
+.btn-6g {
+    border: 2px dotted #226fbe;
+}
+
+.btn-6g:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6h */
+.btn-6h {
+    border: 2px dotted #226fbe;
+    border-radius: 15px;
+}
+
+.btn-6h:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6i */
+.btn-6i {
+    border: 2px dotted #226fbe;
+    border-radius: 60px;
+}
+
+.btn-6i:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6j */
+.btn-6j {
+    border: 4px double #226fbe;
+}
+
+.btn-6j:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6k */
+.btn-6k {
+    border: 4px double #226fbe;
+    border-radius: 15px;
+}
+
+.btn-6k:hover {
+    background: transparent;
+    color: #226fbe;
+}
+
+/* Button 6l */
+.btn-6l {
+    border: 4px double #226fbe;
+    border-radius: 60px;
+}
+
+.btn-6l:hover {
+    background: transparent;
+    color: #226fbe;
+}

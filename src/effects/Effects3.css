@@ -1,0 +1,140 @@
+/* Button 3 */
+.btn-3 {
+    background: #fcad26;
+    color: #fff;
+}
+
+.btn-3:hover {
+    background: #f29e0d;
+}
+
+.btn-3:active {
+    background: #f58500;
+    top: 2px;
+}
+
+.btn-3:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+/* Button 3a */
+.btn-3a {
+    padding: 25px 60px 25px 120px;
+}
+
+.btn-3a:before {
+    background: rgba(0,0,0,0.05);
+}
+
+/* Button 3b */
+.btn-3b {
+    padding: 25px 60px 25px 120px;
+    border-radius: 10px;
+}
+
+.btn-3b:before {
+    border-right: 2px solid rgba(255,255,255,0.5);
+}
+
+/* Button 3c */
+.btn-3c {
+    padding: 80px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px #da9622;
+}
+
+.btn-3c:active {
+    box-shadow: 0 3px #dc7801;
+}
+
+.btn-3c:before {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background: #fff;
+    color: #f29e0d;
+    border-radius: 10px 10px 0 0;
+}
+
+.btn-3c:active:before {
+    color: #f58500;
+}
+
+/* Button 3d */
+.btn-3d {
+    padding: 25px 60px 25px 120px;
+    border-radius: 10px;
+}
+
+.btn-3d:before {
+    background: #fff;
+    color: #fcad26;
+    z-index: 2;
+    border-radius: 10px 0 0 10px;
+}
+
+.btn-3d:after {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    z-index: 1;
+    left: 55px;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.btn-3d:active:before {
+    color: #f58500;
+}
+
+.btn-3d:active {
+    top: 0;
+}
+
+.btn-3d:active:after {
+    left: 60px;
+}
+
+/* Button 3e */
+.btn-3e {
+    padding: 25px 120px 25px 60px;
+    overflow: hidden;
+}
+
+.btn-3e:before {
+    left: auto;
+    right: 10px;
+    z-index: 2;
+}
+
+.btn-3e:after {
+    width: 30%;
+    height: 200%;
+    background: rgba(255,255,255,0.1);
+    z-index: 1;
+    right: 0;
+    top: 0;
+    margin: -5px 0 0 -5px;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform-origin: 0 0;
+    -moz-transform: rotate(-20deg);
+    -ms-transform-origin: 0 0;
+    -ms-transform: rotate(-20deg);
+    transform-origin: 0 0;
+    transform: rotate(-20deg);
+}
+
+.btn-3e:hover:after {
+    width: 40%;
+}

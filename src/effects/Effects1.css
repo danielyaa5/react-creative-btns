@@ -1,0 +1,112 @@
+/* Button 1 */
+.fx-1 {
+    border: 3px solid #fff;
+}
+
+/* Button 1a */
+.fx-1a {}
+
+/* Button 1b */
+.fx-1b::after {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+
+.fx-1b:hover::after,
+.fx-1b:active::after {
+    height: 100%;
+}
+
+/* Button 1c */
+.fx-1c::after {
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.fx-1c:hover::after,
+.fx-1c:active::after {
+    width: 100%;
+}
+
+/* Button 1d */
+.fx-1d {
+    overflow: hidden;
+}
+
+.fx-1d::after {
+    width: 0;
+    height: 103%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.fx-1d:hover::after {
+    width: 90%;
+    opacity: 1;
+}
+
+.fx-1d:active::after {
+    width: 101%;
+    opacity: 1;
+}
+
+/* Button 1e */
+.fx-1e {
+    overflow: hidden;
+}
+
+.fx-1e::after {
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.fx-1e:hover::after {
+    opacity: 1;
+}
+
+.fx-1e:active::after {
+    opacity: 1;
+}
+
+/* Button 1f */
+.fx-1f {
+    overflow: hidden;
+}
+
+.fx-1f::after {
+    width: 101%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.fx-1f:hover::after {
+    height: 75%;
+    opacity: 1;
+}
+
+.fx-1f:active::after {
+    height: 130%;
+    opacity: 1;
+}
