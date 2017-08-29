@@ -105,7 +105,7 @@
     "test"
   ],
   "dependencies": {
-    "prettier": "^1.5.3",
+    "prettier": "^1.6.0",
     "prop-types": "^15.5.10",
     "uuid": "^3.1.0"
   }

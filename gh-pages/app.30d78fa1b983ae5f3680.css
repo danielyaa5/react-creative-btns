@@ -1507,10 +1507,24 @@ striping:
     border-bottom-width: 0;
 }
 .demo-root {
+
 }
 
 .demo-btns-container {
+  padding: 10px;
+  max-width: 740px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.demo-btns-container button {
+  font-weight: 400;
+}
+
+.demo-btns-container > * {
+  margin: 10px;
 }
 .github-corner svg {
     z-index: 1000;
